@@ -1,8 +1,10 @@
 {
+  "name": "server-in-vercel",
   "version": 2,
+  "public": true,
   "builds": [
     {
-      "src": "./server.ts",
+      "src": "src/server.ts",
       "use": "@vercel/node"
     }
   ],
