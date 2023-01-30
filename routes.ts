@@ -1,4 +1,4 @@
-import { prisma } from "./lib/prisma"
+import { prisma } from "./src/lib/prisma"
 import { FastifyInstance } from "fastify"
 import { z } from 'zod'
 import dayjs from "dayjs"
