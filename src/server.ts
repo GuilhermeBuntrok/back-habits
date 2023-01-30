@@ -16,5 +16,5 @@ app.listen({
   port: 9001
 
 }).then(() => {
-  console.log('HTTP Server running!')
+  console.log('🚀 Server ready at')
 })
