@@ -5,6 +5,10 @@ import dayjs from "dayjs"
 
 
 export async function appRoutes(app: FastifyInstance) {
+  app.get("/", (req, res) => {
+    return res.send("Hello")
+  })
+
   app.post(`/habits`, async (request) => {
     const createHabitBody = z.object({
       title: z.string(),
