@@ -13,7 +13,7 @@ app.register(cors)
 app.register(appRoutes)
 
 app.listen({
-  port: 9001
+  port: 3000
 
 }).then(() => {
   console.log('🚀 Server ready at')
