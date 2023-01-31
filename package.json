@@ -9,8 +9,8 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "rm -rf ./dist && tsc",
-    "start": "node ./src/server.js"
+    "build": "tsc",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
