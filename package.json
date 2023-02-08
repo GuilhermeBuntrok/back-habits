@@ -9,7 +9,6 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
     "start": "node build/server.js"
   },
   "keywords": [],
