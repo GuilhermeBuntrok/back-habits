@@ -3,9 +3,11 @@ import cors from '@fastify/cors'
 import { appRoutes } from "./routes";
 import dotenv from "dotenv";
 
+
+
 dotenv.config()
 
-const PORT = process.env.PORT
+const port: any = process.env.PORT || 8000;
 
 const app = Fastify()
 
@@ -15,7 +17,7 @@ app.register(cors)
 app.register(appRoutes)
 
 app.listen({
-  port: 3000,
+  port: port,
   host: "0.0.0.0",
 
 }).then(() => {
